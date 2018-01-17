@@ -19,7 +19,7 @@ def fib(max):
     return 'done'
 
 
-f = fib(10) # 初始化生成器，获得一个生成器实例
+f = fib(10)  # 初始化生成器，获得一个生成器实例
 print('fib(10):', f)
 for x in f:
     print(x)
@@ -33,3 +33,6 @@ while 1:
     except StopIteration as e:
         print('Generator return value:', e.value)
         break
+
+if (__name__ == "__main__"):
+    print("123")
