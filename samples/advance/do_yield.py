@@ -26,4 +26,5 @@ def main():
     for ch in yield_from('hello'):
         pass
 
-main()
+if(__name__ =="__main__"):
+    main()

@@ -28,3 +28,6 @@ print('check h = Husky()...')
 print('isinstance(h, Animal) =', isinstance(h, Animal))
 print('isinstance(h, Dog) =', isinstance(h, Dog))
 print('isinstance(h, Husky) =', isinstance(h, Husky))
+
+if __name__ == '__main__':
+    pass

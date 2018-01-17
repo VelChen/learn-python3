@@ -10,3 +10,8 @@ print('classmates[2] =', classmates[2])
 print('classmates[-1] =', classmates[-1])
 classmates.pop()
 print('classmates =', classmates)
+
+print(list(range(5)))
+
+if __name__ == "__main__":
+    pass

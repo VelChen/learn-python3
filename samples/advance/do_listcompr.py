@@ -23,5 +23,12 @@ print(leb)
 lec = [str(x) + str(y) for x in range(10) if (x % 2 == 0) for y in range(10) if (y % 2 > 0)]
 print(lec)
 
+
+led = [k+" - "+v for k, v in {"name":"zhangsan","age":"18"}.items()]
+print(led)
+
+lee =["ZHANGSAN","LISI","ZHANGZIYI"]
+print([x.lower() for x in lee])
+
 if (__name__ == "__main__"):
     pass
