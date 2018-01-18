@@ -84,3 +84,6 @@ print_info(msg)
 # server.dele(index)
 # 关闭连接:
 server.quit()
+
+if __name__ == '__main__':
+    pass
